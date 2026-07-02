@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Shield / Target Ring (Pulsating Security feel) -->
+    <path
+        android:fillColor="#15FF9F0A"
+        android:pathData="M54,20 A34,34 0 1,1 53.99,20 Z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FF9F0A" />
+        
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,26 A28,28 0 1,1 53.99,26 Z"
+        android:strokeWidth="1"
+        android:strokeColor="#33FF9F0A"
+        android:strokeLineJoin="round" />
+
+    <!-- Expanding Signal Waves (Danger Red) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M44,36 A15,15 0 0,1 64,36"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FF453A"
+        android:strokeLineCap="round" />
+
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M38,30 A24,24 0 0,1 70,30"
+        android:strokeWidth="3"
+        android:strokeColor="#FF453A"
+        android:strokeLineCap="round" />
+
+    <!-- Antenna Mast Tower Structure (Steel Grey & High-visibility Warning Yellow) -->
+    <!-- Tower Body Legs -->
+    <path
+        android:fillColor="#FFD60A"
+        android:pathData="M54,42 L42,78 L46,78 L54,46 L62,78 L66,78 Z" />
+        
+    <!-- Horizontal Crossbars & Ladder rungs -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M47,66 L61,66 M49,60 L59,60 M51,53 L57,53"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFD60A" />
+
+    <!-- Cross diagonal bracing wires -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M47,66 L59,60 M59,66 L49,60 M49,60 L57,53 M57,60 L51,53"
+        android:strokeWidth="1"
+        android:strokeColor="#80FFD60A" />
+
+    <!-- Broadcast Beacon Core Active Transmitter Bulb (Pulsing Red) -->
+    <path
+        android:fillColor="#FF453A"
+        android:pathData="M54,38 A4,4 0 1,1 53.99,38 Z" />
+</vector>

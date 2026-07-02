@@ -1,0 +1,6 @@
+{
+  "name": "CrisisorWeather",
+  "description": "A critical real-time tablet emergency alert console for Amber Alerts, weather warnings, and hazardous material alerts using GPS, TTS, and EAS alarms.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
